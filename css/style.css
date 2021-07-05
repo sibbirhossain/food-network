@@ -14,7 +14,6 @@ header{
 }
 header div img{
     width: 13%;
-    margin-left: 0;
 }
 .menu{
     width: 50%;
@@ -23,7 +22,6 @@ header ul li{
     list-style: none;
 }
 header ul li a{
-    display: inline-block;
     text-decoration: none;
     color:#333;
     padding: 0 20px;
@@ -102,7 +100,7 @@ h1{
  }
 .card-image{
     width: 95%;
-    padding: 20px 15px;
+    padding: 20px 10px;
 }
  #card1{
     margin-left: 80px;
@@ -137,7 +135,7 @@ h1{
     border-radius: 35px;
     padding: 3px 3px 10px 3px;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
 }
  #sr1{
      padding: 0px 25px 0px 150px;
@@ -147,4 +145,10 @@ h1{
  }
  #sr3{
      padding: 0px 15px 0px 20px;
+ }
+ .footer-section{
+     background-color:black;
+     padding: 5px 0px;
+     text-align: center;
+    color: whitesmoke;
  }
