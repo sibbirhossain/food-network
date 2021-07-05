@@ -42,13 +42,14 @@ h1{
 #head-margin{
     margin-bottom: 20px;
 }
-.first-section {
+.flex-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
     margin-left: 5px;
-    margin-bottom: 30px;
+    
 }
 #first-image{
     width: 75%;
@@ -67,6 +68,61 @@ h1{
     color: white;
     padding: 15px 35px;
     border-radius: 40px;
-    background-image: linear-gradient(#fc944b, #fd5432);
-    
+    background-image: linear-gradient(#fc944b, #fd5432);   
+}
+.second-image{
+    width: 45%;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+#about-me{
+    font-size: 40px;
+    margin-top: 90px;
+}
+#second-para{
+    text-align: justify;
+    margin-right: 150px;
+    margin-bottom: 90px;
+}
+.second-section-background{
+    background-image: url(../images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+#my-recipies{
+    text-align: center;
+}
+#my-recipies-para{
+    padding: 12px 300px;
+    margin-bottom: 30px;
+}
+ .card{
+     width: 30%;     
+     box-shadow: 10px 10px 5px gray;
+     border-radius: 35px;
+     padding: 0px 15px 25px 15px;
+     text-align: justify;
+ }
+.card-image{
+    width: 95%;
+    padding: 20px 15px;
+}
+ #card1{
+    margin-left: 80px;
+    margin-right: 20px;
+ }
+ #card2{
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ #card3{
+    margin-left: 20px;
+    margin-right: 80px;
+ }
+.h2-of-card{
+    color: black;
+    font-size: 30px;
+    padding: 0px 15px;
+}
+.card-para{
+    padding: 0px 15px;
 }
