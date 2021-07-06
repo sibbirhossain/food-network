@@ -37,6 +37,10 @@ header ul li a {
     padding: 0 20px;
     float: left;
 }
+header ul li a:hover{
+    color: tomato;
+    font-size: 30px;
+}
 
 h1 {
     font-size: 50px;
@@ -86,6 +90,11 @@ h1 {
     background-image: linear-gradient(#fc944b, #fd5432);
 }
 
+.order-button:hover{
+    background-image: linear-gradient(#fd5432, #fc944b);
+    font-size: 20px;
+}
+
 .second-image {
     width: 45%;
     margin-left: 120px;
@@ -128,6 +137,9 @@ h1 {
     margin-bottom: 80px;
 }
 
+.card:hover{
+    box-shadow: 10px 10px 50px #fe4c2f;
+}
 .card-image {
     width: 95%;
     padding: 20px 10px;
@@ -181,6 +193,10 @@ h1 {
     border-radius: 40px;
     background-image: linear-gradient(#fc944b, #fd5432);
 }
+.tracking-button:hover{
+     background-image: linear-gradient(#fd5432, #fc944b);
+     font-size: 20px;
+}
 .social-reputation {
     width: 30%;
 }
@@ -198,6 +214,9 @@ h1 {
     margin: auto;
     margin-top: 250px;
     margin-bottom: 100px;
+}
+.social-reputation-box:hover {
+    box-shadow: 10px 10px 50px #fe4c2f;
 }
 
 #sr1 {
@@ -217,4 +236,10 @@ h1 {
     padding: 5px 0px;
     text-align: center;
     color: whitesmoke;
+}
+.footer-food:hover{
+     background-image: linear-gradient(#fc944b, #fd5432);
+     padding: 10px 35px;
+     border-radius: 40px;
+     color: white;
 }
