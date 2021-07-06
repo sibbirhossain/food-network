@@ -1,135 +1,170 @@
-body{
+body {
     margin: 0;
-    font-family: 'Poppins',sans-serif;
-     color: #575757;
+    font-family: 'Poppins', sans-serif;
+    color: #575757;
 }
-header{
+
+header {
     display: flex;
-    width: 100%;
-    padding: 10px 110px;
+    padding: 5px 5px;
 }
-.logo{
-    width: 50%;
+
+.logo {
+    width: 30%;
     margin-top: 5px;
+    padding-left: 85px;
+    padding-top: 5px;
+
 }
-header div img{
-    width: 13%;
+
+header div img {
+    width: 35%;
 }
-.menu{
-    width: 50%;
+
+.menu {
+    width: 70%;
+    padding-top: 20px;
+    padding-left: 500px;
 }
-header ul li{
+
+header ul li {
     list-style: none;
 }
-header ul li a{
+
+header ul li a {
     text-decoration: none;
-    color:#333;
+    color: #333;
     padding: 0 20px;
     float: left;
 }
-h1{
+
+h1 {
     font-size: 50px;
     font-weight: 800;
     margin-bottom: -45px;
 }
-.orange-color{
+
+.orange-color {
     color: #fc8c47;
 }
-#head-margin{
+
+#head-margin {
     margin-bottom: 20px;
 }
-.flex-container{
+
+.flex-container {
     display: flex;
     margin-bottom: 150px;
 }
-.half-width{
+
+.half-width {
     width: 50%;
     margin-left: 5px;
-    
+
 }
-#first-image{
+
+#first-image {
     width: 75%;
-    
+
 }
-#first-para{
+
+#first-para {
     padding-right: 150px;
     margin-bottom: 50px;
 }
-.proper-position{
+
+.proper-position {
     margin-top: 40px;
     margin-left: 100px;
 }
-.order-button{
+
+.order-button {
     text-decoration: none;
     color: white;
     padding: 15px 35px;
     border-radius: 40px;
-    background-image: linear-gradient(#fc944b, #fd5432);   
+    background-image: linear-gradient(#fc944b, #fd5432);
 }
-.second-image{
+
+.second-image {
     width: 45%;
     margin-left: 120px;
     margin-top: 50px;
 }
-#about-me{
+
+#about-me {
     font-size: 40px;
     margin-top: 90px;
 }
-#second-para{
+
+#second-para {
     text-align: justify;
     margin-right: 150px;
     margin-bottom: 90px;
 }
-.second-section-background{
+
+.second-section-background {
     background-image: url(../images/shapes/7.png);
     background-repeat: no-repeat;
 }
-#my-recipies{
+
+#my-recipies {
     text-align: center;
 }
-#my-recipies-para{
+
+#my-recipies-para {
     padding: 12px 300px;
     margin-bottom: 30px;
 }
- .card{
-     width: 30%;     
-     box-shadow: 10px 10px 50px lightgray;
-     border-radius: 35px;
-     padding: 0px 15px 25px 15px;
-     text-align: justify;
- }
-.card-image{
+
+.card {
+    width: 30%;
+    box-shadow: 10px 10px 50px lightgray;
+    border-radius: 35px;
+    padding: 0px 15px 25px 15px;
+    text-align: justify;
+}
+
+.card-image {
     width: 95%;
     padding: 20px 10px;
 }
- #card1{
+
+#card1 {
     margin-left: 80px;
     margin-right: 20px;
- }
- #card2{
+}
+
+#card2 {
     margin-left: 20px;
     margin-right: 20px;
- }
- #card3{
+}
+
+#card3 {
     margin-left: 20px;
     margin-right: 80px;
- }
-.h2-of-card{
+}
+
+.h2-of-card {
     color: black;
     font-size: 30px;
     padding: 0px 15px;
 }
-.card-para{
+
+.card-para {
     padding: 0px 15px;
 }
-.social-reputation{
+
+.social-reputation {
     width: 30%;
- }
-.h1-social-reputation{
-    color: black;
-    padding-bottom: 20px ;
 }
-.social-reputation-box{
+
+.h1-social-reputation {
+    color: black;
+    padding-bottom: 20px;
+}
+
+.social-reputation-box {
     width: 90%;
     box-shadow: 10px 10px 50px lightgray;
     border-radius: 35px;
@@ -137,18 +172,22 @@ h1{
     margin: auto;
     margin-bottom: 90px;
 }
- #sr1{
-     padding: 0px 25px 0px 150px;
- }
- #sr2{
-     padding: 0px 90px 0px 80px;
- }
- #sr3{
-     padding: 0px 15px 0px 20px;
- }
- .footer-section{
-     background-color:black;
-     padding: 5px 0px;
-     text-align: center;
+
+#sr1 {
+    padding: 0px 25px 0px 150px;
+}
+
+#sr2 {
+    padding: 0px 90px 0px 80px;
+}
+
+#sr3 {
+    padding: 0px 15px 0px 20px;
+}
+
+.footer-section {
+    background-color: black;
+    padding: 5px 0px;
+    text-align: center;
     color: whitesmoke;
- }
+}
