@@ -115,6 +115,7 @@ h1 {
 .second-section-background {
     background-image: url(../images/shapes/7.png);
     background-repeat: no-repeat;
+    width: 100%;
 }
 
 #my-recipies {
