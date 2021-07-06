@@ -98,7 +98,7 @@ h1 {
 .second-image {
     width: 45%;
     margin-left: 120px;
-    margin-top: 95px;
+    margin-top: 97px;
 }
 
 #about-me {
@@ -172,7 +172,7 @@ h1 {
 }
 
 .delivery-tracking{
-    background-image: url(../images/food/Project\ Cover4.png);
+    background-image: url(../images/food/Project\cover4.png);
     background-repeat: no-repeat;
     width: 100%;
 }
