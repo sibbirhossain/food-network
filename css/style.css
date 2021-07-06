@@ -173,6 +173,7 @@ h1 {
 .delivery-tracking{
     background-image: url(../images/food/Project\ Cover4.png);
     background-repeat: no-repeat;
+    width: 100%;
 }
 #delivery-h1{
     font-size: 50px;
@@ -182,7 +183,7 @@ h1 {
     margin-bottom: 100px;
 }
 #delivery-image{
-    width: 70%;
+    width: 100%;
     margin-top: 100px;
     margin-bottom: -7px;
 }
